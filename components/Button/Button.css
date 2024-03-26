@@ -1,0 +1,106 @@
+.components{
+    /* background-color: white; */
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    margin: 10px;
+    border-radius: 10px;
+    color: #2e7d32;
+}
+.button {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 6px;
+  }
+  .variant-success{
+    background-color: #2e7d32;
+    color: #ffffff;
+    font: bold;
+  }
+  .variant-error{
+    background-color: #dd050c;
+    color: #ffffff;
+  }
+  .variant-primary{
+    background-color: none;
+  }
+  .variant-dark{
+    background-color: #202020;
+    color: #ffffff;
+  }
+  .variant-secondary{
+    background-color: gray;
+    color: #ffffff;
+  }
+  .size-large{
+    padding: 20px 30px 20px 30px;
+  }
+  .size-medium{
+    padding: 10px;
+  }
+  .color-red{
+    background-color: #a52a2a;
+    color: white;
+  }
+  .color-blue{
+    background-color: dodgerblue;
+  }
+  .color-green{
+    background-color: green;
+    color: #ffffff;
+  }
+  .color-orange{
+    background-color: orange;
+  }
+  .color-pink{
+    background-color: pink;
+  }
+  .color-gray{
+    background-color: gray;
+  }
+  .color-yellow{
+    background-color: yellow;
+  }
+.color-facebook{
+  background-color: #1877F2  ;
+  color: white;
+}
+.color-instagram{
+  background-color: #fccc63 ;
+  color: white;
+}
+.color-youtube{
+  background-color: #CD201F;
+  color: white;
+}
+.color-github{
+  background-color: #171515;
+  color: white;
+}

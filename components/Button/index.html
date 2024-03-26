@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="../../index.js"></script>
+    <script type="module" src="../../activeNav.js"></script>
+    <link rel = "stylesheet" href = "../../index.css" />
+    <link rel = "stylesheet" href = "Button.css" />
+
+</head>
+<body>
+    <div class="body">
+        <section class="navbar" >
+            <ul id="myDIV">
+                <li><a class="btn" href="#home">Components</a></li>
+                <li><a class="btn active" href="/components/Button/index.html">Button</a></li>
+                <li><a class="btn" href="/components/SearchBar/index.html">Searchbar</a></li>
+                <li><a class="btn" href="/components/Table/index.html">Table</a></li>
+                <li><a class="btn" href="/components/Checkbox/index.html">Checkbox</a></li>
+
+            </ul>
+        </section>
+        <section class="components">
+            <div class="">
+                <h3 style=" padding: 10px; border-left: 3px solid red ;"> BUTTON VARIANTS #</h3>
+                <div class="buttons">
+                    <my-button  variant = "primary">Primary</my-button>
+                    <my-button  variant = "secondary">Secondary</my-button>
+                    <my-button  variant = "success">Success</my-button>
+                    <my-button  variant = "error">Error</my-button>
+                    <my-button   variant = "dark">Dark</my-button>
+                </div> 
+                <div  class="code">
+                    <p>&lt;my-button  variant="primary"&gt;&lt;/my-button&gt;</p>
+                    <p>&lt;my-button  variant="secondary"&gt;&lt;/my-button&gt;</p>
+                    <p>&lt;my-button  variant="success"&gt;&lt;/my-button&gt;</p>
+                    <p>&lt;my-button  variant="error"&gt;&lt;/my-button&gt;</p>
+                    <p>&lt;my-button  variant="dark"&gt;&lt;/my-button&gt;</p>
+                </div>
+                </div>
+                <h3 style=" padding: 10px; border-left: 3px solid red ;"> BUTTON SIZES #</h3>
+            <div class="buttons">
+                <my-button size = "small">Small</my-button>
+                <my-button size = "medium">Medium</my-button>
+                <my-button  size = "large">Large</my-button>
+            </div> 
+            <div  class="code">
+                <p>&lt;my-button name="Small" size = "small"&gt;&lt;/my-button&gt;</p>
+                <p>&lt;my-button name="Medium" size="medium"&gt;&lt;/my-button&gt;</p>
+                <p>&lt;my-button name="Large" variant="large"&gt;&lt;/my-button&gt;</p>
+            </div>   
+        <!-- <h1>Social buttons</h1> -->
+        <h3 style=" padding: 10px; border-left: 3px solid red ;"> SOCIAL BUTTONS #</h3>
+            <div class="buttons">
+                <my-button  icon = "logo-facebook" ></my-button>
+                <my-button  icon = "logo-instagram" ></my-button>
+                <my-button icon = "logo-youtube" ></my-button>
+                <my-button icon = "logo-github"  ></my-button>
+            </div>
+            <div  class="code">
+                <p>&lt;my-button icon = "logo-facebook"&gt;&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-instagram"&gt;&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-youtube"&gt;&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-github"&gt;&lt;/my-button&gt;</p>
+            </div>  
+            <h3 style=" padding: 10px; border-left: 3px solid red ;"> COLOR BUTTON #</h3>
+            <div class="buttons">
+                <my-button color = "gray" >Gray</my-button>
+                <my-button color = "red" >Red</my-button>
+                <my-button color = "blue" >Blue</my-button>
+                <my-button color = "green" >Green</my-button>
+                <my-button color = "orange" >Orange</my-button>
+                <my-button color = "pink" >Pink</my-button>
+                <my-button color = "yellow" >Yellow</my-button>
+            </div>
+            <div  class="code">
+                <p>&lt;my-button  color = "gray"&gt;Gray&lt;/my-button&gt;</p>
+                <p>&lt;my-button  color = "red"&gt;Red&lt;/my-button&gt;</p>
+                <p>&lt;my-button  color = "blue"&gt;Blue&lt;/my-button&gt;</p>
+                <p>&lt;my-button  color = "green"&gt;Green&lt;/my-button&gt;</p>
+                <p>&lt;my-button  color = "orange"&gt;Orange&lt;/my-button&gt;</p>
+                <p>&lt;my-button  color = "pink"&gt;Pink&lt;/my-button&gt;</p>
+                <p>&lt;my-button   color = "yellow"&gt;Yellow&lt;/my-button&gt;</p>
+
+            </div>    
+            <h3 style=" padding: 10px; border-left: 3px solid red ;"> BUTTON WITH ICON #</h3>
+            <div class="buttons">
+                <my-button  icon = "logo-facebook"  color = "facebook"  >Facebook</my-button>
+                <my-button  icon = "logo-instagram" color = "instagram">Instagram</my-button>
+                <my-button icon = "logo-youtube"  color = "youtube">Youtube</my-button>
+                <my-button icon = "logo-github" color = "github" >Github</my-button>
+            </div>
+            <div  class="code">
+                <p>&lt;my-button icon = "logo-facebook" color = "facebook"&gt;Facebook&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-instagram"  color = "instagram"&gt;Instagram&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-youtube"  color = "youtube"&gt;Youtube&lt;/my-button&gt;</p>
+                <p>&lt;my-button icon = "logo-github"  color = "github"&gt;Github&lt;/my-button&gt;</p>
+            </div>   
+            
+        </section>
+            
+    </div> 
+</body>
+</html>

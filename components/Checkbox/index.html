@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="../../index.js"></script>
+    <script type="module" src="../../activeNav.js"></script>
+    <link rel = "stylesheet" href = "../../index.css" />
+    <link rel = "stylesheet" href = "./Checkbox.css" />
+
+</head>
+<body>
+    <div class="body">
+        <section class="navbar" >
+            <ul id="myDIV">
+                <li><a class="btn" href="#home">Components</a></li>
+                <li><a class="btn" href="/components/Button/index.html">Button</a></li>
+                <li><a class="btn" href="/components/SearchBar/index.html">Searchbar</a></li>
+                <li><a class="btn" href="/components/Table/index.html">Table</a></li>
+                <li><a class="btn active" href="/components/Checkbox/index.html">Checkbox</a></li>
+            </ul>
+        </section>
+        <section class="components">
+            <h3 style=" padding: 10px; border-left: 3px solid red ;"> CHECKED #</h3>
+            <div class="checkboxs">
+                <my-checkbox defaultChecked ></my-checkbox>
+            </div>
+            <div  class="code">
+                <p>&lt; my-checkbox defaultChecked &gt;&lt;/my-checkbox&gt;</p>
+            </div>
+            <h3 style=" padding: 10px; border-left: 3px solid red ;"> CHECKBOX CUSTOM COLOR #</h3>
+            <div class="checkboxs">
+                <my-checkbox  colorSchema = "green" >Green</my-checkbox>
+                <my-checkbox  colorSchema = "red" >Red</my-checkbox>
+                <my-checkbox  colorSchema = "orange" >Orange</my-checkbox>
+            </div>
+            <div  class="code">
+                <p>&lt; my-checkbox colorSchema = "green"  &gt; Green&lt;/my-checkbox&gt;</p>
+                <p>&lt; my-checkbox colorSchema = "red"  &gt; Red &lt;/my-checkbox&gt;</p>
+                <p>&lt; my-checkbox colorSchema = "orange"  &gt;Orange&lt;/my-checkbox&gt;</p>
+            </div>
+            <h3 style=" padding: 10px; border-left: 3px solid red ;"> CHECKBOX SIZES #</h3>
+            <div class="checkboxs">
+              <my-checkbox  size = "small" >Small</my-checkbox>
+              <my-checkbox  size = "medium">Medium</my-checkbox>
+              <my-checkbox  size = "large"  >Large</my-checkbox>
+          </div>
+          <div  class="code">
+              <p>&lt; my-checkbox size = "small"  &gt;Small&lt;/my-checkbox&gt;</p>
+              <p>&lt; my-checkbox size = "medium"  &gt;Medium&lt;/my-checkbox&gt;</p>
+              <p>&lt; my-checkbox size = "large"  &gt;Large&lt;/my-checkbox&gt;</p>
+          </div>
+        </section>
+    </div> 
+</body>
+</html>
