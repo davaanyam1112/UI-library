@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script type="module" src="../../index.js"></script>
     <script type="module" src="../../activeNav.js"></script>
-    <link rel="stylesheet" href="../../index.css"/>
+    <link rel="stylesheet" href="../../index.css" />
     <link rel="stylesheet" href="./Table.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <div class="body">
-        <section class="navbar">
-            <ul id="myDIV">
-                <li><a class="btn" href="#home">Components</a></li>
-                <li><a class="btn" href="/components/Button/index.html">Button</a></li>
-                <li><a class="btn" href="/components/SearchBar/index.html">Searchbar</a></li>
-                <li><a class="btn active" href="/components/Table/index.html">Table</a></li>
-                <li><a class="btn" href="/components/Checkbox/index.html">Checkbox</a></li>
-            </ul>
-        </section>
-        <section class="components">
-            <h3 style=" padding: 10px; border-left: 3px solid red ;">SIMPLE TABLE #</h3>
-            <div class="tables">
-                <styled-table id = "users" headers="Id,Name,Wins , Draws , Losses , Total"></styled-table>
-            </div>
-            <div  class="code">
-                <p>&lt;styled-table id = "users" headers="Id,Name,Wins , Draws , Losses , Total" &gt;&lt;/styled-table&gt;</p>
-            </div>
-            <h3 style=" padding: 10px; border-left: 3px solid red ;">STRIPED TABLE #</h3>
-            <div class="tables"> 
-                <styled-table id = "users1" headers="Id,Name,Wins , Draws , Losses , Total" variant="striped"></styled-table>
-            </div>
-            <div  class="code">
-                <p>&lt;styled-table id = "users1" headers="Id,Name,Wins , Draws , Losses , Total" variant = "striped" &gt;&lt;/styled-table&gt;</p>
-            </div>
-        </section>
-    </div>   
-</body>
+      <iframe
+        src="../navbar.html"
+        frameborder="0"
+        width="100%"
+        height="50px"
+      ></iframe>
+      <section class="components">
+        <h3 style="padding: 10px; border-left: 3px solid red">
+          SIMPLE TABLE #
+        </h3>
+        <div class="tables">
+          <styled-table
+            id="users"
+            headers="Id,Name,Wins , Draws , Losses , Total"
+          ></styled-table>
+        </div>
+        <div class="code">
+          <p>
+            &lt;styled-table id = "users" headers="Id,Name,Wins , Draws , Losses
+            , Total" &gt;&lt;/styled-table&gt;
+          </p>
+        </div>
+        <h3 style="padding: 10px; border-left: 3px solid red">
+          STRIPED TABLE #
+        </h3>
+        <div class="tables">
+          <styled-table
+            id="users1"
+            headers="Id,Name,Wins , Draws , Losses , Total"
+            variant="striped"
+          ></styled-table>
+        </div>
+        <div class="code">
+          <p>
+            &lt;styled-table id = "users1" headers="Id,Name,Wins , Draws ,
+            Losses , Total" variant = "striped" &gt;&lt;/styled-table&gt;
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

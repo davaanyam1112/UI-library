@@ -1,35 +1,37 @@
-table{
-    border-collapse: collapse;
-    font-size: 0.9em;
-    min-width: 400px;
+table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 400px;
 }
-thead tr{
-    text-align: left;
-    border-bottom: 1px solid #dddddd;
+thead tr {
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
 }
 th,
-td{
-    font-weight: normal;
-    padding: 6px 12px;;
+td {
+  font-weight: normal;
+  padding: 6px 12px;
 }
-tbody tr{
-    border-bottom: 1px solid #dddddd;
+tbody tr {
+  border-bottom: 1px solid #dddddd;
 }
-.tables{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.code{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    margin: 10px;
-    border-radius: 10px;
-    color: #2e7d32;
+.code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #2e7d32;
 }
-.variant-striped  tr:nth-child(2n + 1) td {
-      background-color: #606060;
-     color: #ffffff;
-  }
+.variant-striped tr:nth-child(2n + 1) td {
+  background-color: #606060;
+  color: #ffffff;
+}
